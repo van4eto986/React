@@ -1,0 +1,19 @@
+create-react-app 'name'
+npm install react-router-dom --save
+npm install flux –-save
+npm install toastr --save
+npm install jquery --save
+npm install query-string --save
+npm start
+
+
+inport React, { Component } from 'react'
+
+class CreateHotelPage extends Component{
+	render () {
+		return (
+			<div>Create</div>
+		)
+	}
+}
+export default CreateHotelPage

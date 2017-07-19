@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.menu div {
+    display: inline-block;
+}
+
+.navbar-spacer {
+  display: inline-block;
+  width: 100px;
+}
+
+.seed-btn {
+  cursor: pointer;
+}
+
+.pets-outer {
+  overflow: hidden;
+  position: relative;
+  margin: 100px auto;
+}
+
+.pet-card-container {
+  border: solid 2px #eae3ff;
+  width: 38%;
+  height: 400px;
+  float: left;
+  margin: 20px 40px;
+}
+
+.pet-card-container:last-of-type {
+  clear: both;
+}
+
+.pet-card-container img,
+.pet-details-container img {
+  width: 40%;
+}
+
+.paging-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+
+.pet-details-container {
+  border: solid 2px #eae3ff;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.pet-details-container img {
+  float: left;
+}
+
+.comments-wrapper {
+  background-color: #eae3ff;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.comment {
+  border: solid 2px crimson;
+  border-radius: 20px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.comment p:first-child {
+  text-align: left;
+}
+
+.comment p:last-child {
+  text-align: right;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

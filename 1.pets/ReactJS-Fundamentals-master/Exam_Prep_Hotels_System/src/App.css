@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.menu div {
+    display: inline-block;
+}
+
+.hotels-outer {
+  overflow: hidden;
+  position: relative;
+  margin: 100px auto;
+}
+
+.hotel-card-container {
+  border: solid 2px #eae3ff;
+  width: 38%;
+  height: 300px;
+  float: left;
+  margin: 20px 40px;
+  padding-top: 20px;
+}
+
+.hotel-card-container:last-of-type {
+  clear: both;
+}
+
+.hotel-card-container img,
+.hotel-details-container img {
+  width: 50%;
+}
+
+.hotel-details-container {
+  border: solid 2px #eae3ff;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.hotel-details-container img {
+  float: left;
+}
+
+.reviews-wrapper {
+  background-color: #eae3ff;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.review {
+  border: solid 2px crimson;
+  border-radius: 20px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
